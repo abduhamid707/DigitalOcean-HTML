@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.container {
+  max-width: 1152px;
+}
+
+/* Header Block */
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: rgb(255, 255, 255);
+}
+
+/* Header Navbar */
+.header__navbar {
+}
+
+/* Header Container */
+.header__container {
+}
+
+/* Header Brand */
+.header__brand {
+}
+
+/* Header Logo */
+.header__logo {
+}
+
+/* Header Toggler */
+.header__toggler {
+}
+
+/* Header Toggler Icon */
+.header__toggler-icon {
+}
+
+/* Header Collapse */
+.header__collapse {
+}
+
+/* Header Nav */
+.header__nav {
+}
+
+/* Header Nav Item */
+.header__nav-item {
+  margin-left: 40px;
+}
+.header__nav-item:nth-child(1) {
+  margin-left: 0;
+}
+/* Header Nav Link */
+.header__nav-link {
+  color: #000000;
+  position: relative;
+}
+.header__nav-link-after::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #0082f4;
+  position: absolute;
+  top: 66px;
+  left: 0;
+  right: 0;
+}
+/* Header Nav Item > active*/
+.header__nav-item .active {
+  color: #0082f4 !important;
+}
+/* Header Text */
+.header__text {
+}
+
+/* Header Button */
+.header__button {
+  padding: 15px 30px;
+  color: white !important;
+  font-weight: 600;
+  font-size: 18px;
+}
